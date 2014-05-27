@@ -1,0 +1,20 @@
+{
+    "name": "doorframework/installer",
+    "license": "MIT",
+    "type": "composer-installer",
+    "description": "Composer installer for Door framework",
+    "authors": [
+		{
+			"name": "Sergey Sachik",
+			"homepage": "http://serginho.ru/"
+		}
+    ],
+    "extra": {
+        "class": "Door\\ComposerInstaller\\Installer"
+    },	
+    "autoload": {
+        "psr-0" : {
+            "Door\\ComposerInstaller" : "classes"
+        }
+    }
+}
