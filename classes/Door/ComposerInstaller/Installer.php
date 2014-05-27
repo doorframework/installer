@@ -5,7 +5,7 @@
  * box@serginho.ru
  */
 
-namespace Door\Core;
+namespace Door\ComposerInstaller;
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 
@@ -14,7 +14,7 @@ use Composer\Package\PackageInterface;
  *
  * @author serginho
  */
-class ComposerInstaller extends LibraryInstaller{
+class Installer extends LibraryInstaller{
 	
     public function supports($packageType)
     {
